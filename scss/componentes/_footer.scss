@@ -1,0 +1,36 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    background-color: $---color-azul;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    .redes{
+        grid-column: 2/6;
+        grid-row: 2/6;
+        padding: 0.5rem;
+        div {
+            p {
+                padding-bottom: 0.5rem;
+            }
+            div {
+                a {
+                    color: white;
+                }
+            }
+            div {
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+    .sa{
+        grid-column: 7/12;
+        grid-row: 3/6;
+        p {
+            text-align: start;
+        }
+    }
+}

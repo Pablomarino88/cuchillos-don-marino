@@ -1,0 +1,26 @@
+header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 0.2fr);
+    background-color: $---color-pastel;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+        h1{
+            grid-column: 4/11;
+            grid-row: 2;
+            font-size: 50px;
+            padding: 1.5rem 1.5rem 1.5rem 7rem;
+    }
+        img{
+            grid-column: 3;
+            grid-row: 2;
+            width: 100%;
+            border-radius: 100px;
+            &:hover{
+                transform: scale(1) scale(1.2);
+                transition-duration: 400ms;
+                transition-timing-function: ease-in-out;
+            }
+    }
+}
