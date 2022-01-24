@@ -29,7 +29,7 @@
 /* SECTION METODO DE PAGO 1100*/
 @media screen and (max-width:1110px) {
 
-.s-metododepago {
+    .s-metododepago {
         .contenedorpromo {
 
             display: grid;
@@ -38,7 +38,7 @@
             .i-promo {
                 grid-row: 1;
                 width: 90%;
-                padding: 0.5rem 0.5rem 2rem 7rem;
+                padding: 0.5rem 0.5rem 2rem 3.5rem;
             }
 
             .textopromo {
@@ -48,6 +48,12 @@
                 padding: 0 3rem 0 3rem;
             }
         }
+    }
+
+    footer .sa {
+        grid-row: 3/6;
+        grid-column: 8/12;
+        text-align: center;
     }
 }
 
@@ -199,7 +205,7 @@
     .i-promo {
         grid-row: 1;
         width: 100%;
-        padding: 0.5rem 0.5rem 2rem 0.5rem;
+        padding: 0.5rem 0.5rem 1.5rem 0.5rem;
     }
 
     .textopromo {
